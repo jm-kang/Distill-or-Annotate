@@ -24,14 +24,19 @@ If you find our code, data or the paper useful, please cite the paper:
 }
 ```
 
-## Installation
+## Preparation
 
+#### Installation
 ```
 conda create --name <env> --file requirements.txt
 ```
 
+#### Download Unlabeled Data
+For running distillation, download [this unlabeled data](https://drive.google.com/file/d/1KaP6FDIZWgFWlT566IgXsJ6qAT0Z3FVJ/view?usp=sharing) for each task. Training/test sets are directly provided in each directory in this repository.
+
+
 ## Annotation Costs
-Here're the estimates of annotation cost per label for each dataset. You are encouraged to calculate the number of train data based on your fixed budget, given the following estimates. For more details, please refer to the paper.
+Here are the estimates of annotation cost per label for each dataset. You are encouraged to calculate the number of train data based on your fixed budget, given the following estimates. For more details, please refer to the paper.
 
 | WLP  | Stanceosaurus | FEVER | MultiPIT_id | MultiPIT_gen | NQ |
 |---|---|---|---|---|---|
