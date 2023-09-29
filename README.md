@@ -1,6 +1,10 @@
 # Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models
 This repository contains resources for the ACL 2023 paper [Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models](https://aclanthology.org/2023.acl-long.622.pdf).
 
+
+![alt text](https://jm-kang.github.io/assets/publications/2023_dist_or_ann/strategies.png)
+
+
 If you find our code, data or the paper useful, please cite the paper:
 ```
 @inproceedings{kang-etal-2023-distill,
