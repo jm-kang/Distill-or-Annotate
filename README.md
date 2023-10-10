@@ -8,19 +8,10 @@ This repository contains resources for the ACL 2023 paper [Distill or Annotate? 
 If you find our code, data or the paper useful, please cite the paper:
 ```
 @inproceedings{kang-etal-2023-distill,
-    title = "Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models",
-    author = "Kang, Junmo  and
-      Xu, Wei  and
-      Ritter, Alan",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-long.622",
-    doi = "10.18653/v1/2023.acl-long.622",
-    pages = "11100--11119",
-    abstract = "Fine-tuning large models is highly effective, however, inference can be expensive and produces carbon emissions. Knowledge distillation has been shown to be a practical solution to reduce inference costs, but the distillation process itself requires significant computational resources. Rather than buying or renting GPUs to fine-tune, then distill a large model, an NLP practitioner might instead choose to allocate the available budget to hire annotators and manually label additional fine-tuning data. In this paper, we investigate how to most efficiently use a fixed budget to build a compact model. Through extensive experiments on six diverse tasks, we show that distilling from T5-XXL (11B) to T5-Small (60M) is almost always a cost-efficient strategy compared to annotating more data to directly train a compact model (T5-Small). We further investigate how the optimal budget allocated towards computation varies across scenarios. We will make our code, datasets, annotation cost estimates, and baseline models available as a benchmark to support further work on cost-efficient training of compact models.",
+  title={Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models},
+  author={Kang, Junmo and Xu, Wei and Ritter, Alan},
+  booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year={2023}
 }
 ```
 
